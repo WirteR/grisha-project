@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Автосервіс</title>
-    <link rel="stylesheet" href="./shared.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="../css/auth.css">
 </head>
 <body>
     <header>
         <div>
             <a href="./index.html" class="logo">
-                <img src="./img/logo.png" alt="Продаж автозапчачтин">
+                <img src="../img/logo.png" alt="Продаж автозапчачтин">
             </a>
         </div>
         <nav class="header-nav">
@@ -34,46 +34,37 @@
             <ul class="main-nav__items">
                 <li class="main-nav__item"><a href="">Новини</a></li>
                 <li class="main-nav__item"><a href="">Про нас</a></li>
-                <li class="main-nav__item active"><a href="">Доставка</a></li>
+                <li class="main-nav__item active"><a href="../index.html">Доставка</a></li>
                 <li class="main-nav__item"><a href="">Гарантія</a></li>
                 <li class="main-nav__item"><a href="">Оплата</a></li>
-                <li class="main-nav__item"><a href="./pages/auth.html">Авторизація</a></li>
+                <li class="main-nav__item"><a href="">Авторизація</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>ДОСТАВЛЕННЯ</h1>
-        <div class="break"></div>
-        <div class="graph">
-            <span>Графік роботи</span>
-            <span>Пн-Пт: з 8:00 до 20:00 | Сб: з 9:00 до 19:00</span>
-        </div>
-        <div class="break"></div>
-        <div class="delivery-info">
-            <p>Після оформлення замовлення на сайті або по телефону менеджер узгоджує з клієнтом день, час і адресу доставки.</p>
-            <p>Без підтвердження замовлення товар не буде відправлений.</p>
-            <p>Ви можете відстежувати статус вашого замовлення в Особистому кабінеті на сайті.</p>
-            <p>Особистий кабінет реєструється для кожного клієнта при першій покупці, для входу в нього досить ввести номер
-                телефону, вказаний при оформленні замовлення.</p>
-        </div>
-        <div class="del-kinds flex-left">
-            <p>Способи доставки</p>
-            <ul>
-                <li>доставка кур'єром о Києву(безкоштовно)</li>
-                <li>доставка на СТО по Києву(безкоштовно)</li>
-                <li>самовивіз</li>
-                <li>доставка по Україна службою "Нова Пошта"</li>
-            </ul>
-        </div>
-        <div class="break"></div>
-        <div class="del-contacts flex-left">
-            <p>Контактні номера диспетчера кур'єрської служби</p>
-            <ul>
-                <li>(050) 823-99-09</li>
-                <li>(068) 341-75-08</li>
-                <li>(063) 615-24-99</li>
-            </ul>
-        </div>
+        <h1>АВТОРИЗАЦІЯ</h1>
+        <form action="">
+            <div class="input-section">
+                <p>Ім'я: </p>
+                <input type="text" name="name" id="name" class="text-inp">
+            </div>
+            <div class="input-section">
+                <p>Прізвище: </p>
+                <input type="text" name="surname" id="surname" class="text-inp">
+            </div>
+            <div class="input-section">
+                <p>E-Mail: </p>
+                <input type="email" name="email" id="email" class="text-inp">
+            </div>
+            <div class="input-section">
+                <p>Пароль: </p>
+                <input type="password" name="pass" id="pass" class="text-inp">
+            </div>
+            <div class="input-section">
+                <p>Місто: </p>
+                <input type="text" name="city" id="city" class="text-inp">
+            </div>
+        </form>
     </main>
     <footer>
         <section class="main-footer">
@@ -95,7 +86,7 @@
                     <li><a href="">ПРО КОМПАНІЮ</a></li>
                     <li><a href="">НАШІ ПАРТНЕРИ</a></li>
                     <li><a href="">ОПЛАТА</a></li>
-                    <li><a href="">ДОСТАВЛЕННЯ</a></li>
+                    <li><a href="../index.html">ДОСТАВЛЕННЯ</a></li>
                     <li><a href="">ГАРАНТІЯ ТА ПОВЕРНЕННЯ</a></li>
                     <li><a href="">ЗАДАТИ ПИТАННЯ</a></li>
                     <li><a href="">КАРТА</a></li>
@@ -103,8 +94,8 @@
             </section>
             <section class="footer-list flex-center">
                 <p>МИ В СОЦ. МЕРЕЖАХ</p>
-                <img src="./img/instagram.png">
-                <img src="./img/facebook.png">
+                <img src="../img/instagram.png">
+                <img src="../img/facebook.png">
             </section> 
         </section>
     </footer>

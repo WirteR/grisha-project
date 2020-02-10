@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 1000px;
+    font-family: Roboto;
+}
+
+main h1 {
+    display: inline-block;
+    margin: 60px auto 30px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF0000;
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin: 10px 0;
+}
+
+.input-section p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.text-inp {
+    height: 30px;
+    border: 2px solid black;
+    width: 260px;
+}
