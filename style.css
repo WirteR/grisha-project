@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 1000px;
+}
+
+main h1 {
+    display: inline-block;
+    margin: 60px auto 30px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF0000;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.graph span {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.delivery-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 30px 0;
+}
+
+.delivery-info p {
+    text-indent: 10px;
+    margin: 0;
+}
