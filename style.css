@@ -41,3 +41,38 @@ main h1 {
     text-indent: 10px;
     margin: 0;
 }
+
+.del-kinds {
+    font-size: 15px;
+    line-height: 18px;
+    list-style-type: " - ";
+    width: 100%;
+}
+
+.del-kinds p {
+    color: #1400FF;
+    margin-bottom: 0;
+}
+
+.flex-left {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.del-contacts {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+}
+
+.del-contacts ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.del-contacts p {
+    margin-bottom: 0;
+}
